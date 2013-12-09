@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<app>
+	<id></id>
+	<name></name>
+	<created_date></created_date>
+	<updated_date></updated_date>
+	<version></version>
+	<icon></icon>
+	<splash></splash>
+	<design type="1" name="tabbed">
+		<font_family>Trebuchet MS</font_family>
+		<background_color>#444444</background_color>
+		<background_image>ing/img.png</background_image>
+		<header_logo></header_logo>
+		<colors>
+			<nav_bar>#3A3C40</nav_bar>
+			<bottom_bar>#555</bottom_bar>
+			<list_bg>#2B2C2F</list_bg>
+			<odd_row>#444</odd_row>
+			<even_row>#888</even_row>
+			<highlight_row>#444</highlight_row>
+			<sub_section_tab>#333</sub_section_tab>
+			<sub_section_tab_highlight>#333</sub_section_tab_highlight>
+			<footer_color></footer_color>
+			<title_font></title_font>
+			<content>
+				<background>#fff</background>
+				<font></font>
+			</content>>
+		</colors>
+	</design>
+	<categories>
+		<category name="Vascular">
+		        <icon>heart.png</icon>
+			    <bubble_value>3</bubble_value>
+				<link>#</link>
+				<class>icon_first</class>
+				<main_subcategories>
+					<main_subcategory name="Physician">
+						<subcategories>
+					<subcategory name="Physician Presentation">
+						<icon>images/icon_source.png</icon>
+						<class>sec_thumbs</class>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Megallan Brochure">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Megallan Cartheter Data Sheet">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Megallan Demo Talk Track">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Case Studies">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+				</subcategories>
+					</main_subcategory>
+					<main_subcategory name="Media">
+						<subcategories>
+					<subcategory name="Physician Presentation">
+						<icon>images/icon_source.png</icon>
+						<class>sec_thumbs</class>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Megallan Brochure">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Megallan Cartheter Data Sheet">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Megallan Demo Talk Track">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Case Studies">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+				</subcategories>
+					</main_subcategory>
+					<main_subcategory name="Hospital">
+						<subcategories>
+					<subcategory name="Physician Presentation">
+						<icon>images/icon_source.png</icon>
+						<class>sec_thumbs</class>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Megallan Brochure">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Megallan Cartheter Data Sheet">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Megallan Demo Talk Track">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+					<subcategory name="Case Studies">
+						<icon>images/icon_source.png</icon>
+						<media>
+							<type>pdf</type>
+							<path>images/icon_source.png</path>
+						</media>
+					</subcategory>
+				</subcategories>
+					</main_subcategory>
+				</main_subcategories>
+		</category>
+		<category name="Electro Psychology">
+		        <icon>heart.png</icon>
+			    <bubble_value></bubble_value>
+				<link>#</link>
+				<class>icon_first</class>
+	    </category>
+		<category name="Electro Psychology">
+		        <icon>images/icon_electro.png</icon>
+			    <bubble_value></bubble_value>
+				<link>#</link>
+				<class>icon_first</class>
+	    </category>
+		
+        <category name="Safety Information">
+		        <icon>images/icon_safty.png</icon>
+			    <bubble_value></bubble_value>
+				<link>#</link>
+				<class>icon_first</class>
+	    </category>
+		 <category name="Copyright Information">
+		        <icon>images/icon_cpyright.png</icon>
+			    <bubble_value></bubble_value>
+				<link>#</link>
+				<class>icon_first</class>
+	    </category>
+		 <category name="US Ipad Sales App LT0059">
+		        <icon>images/icon_iPadpotrait.png</icon>
+			    <bubble_value></bubble_value>
+				<link>#</link>
+				<class>icon_first</class>
+	    </category>
+	</categories>
+</app>

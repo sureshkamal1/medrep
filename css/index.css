@@ -1,0 +1,261 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+html{
+    background-color:#333333;
+}
+body {
+    margin:0px;
+    padding:0px;
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;    
+    background-color: #333333;
+}
+
+.page{
+    width: 100%;
+    height: 760px;
+    /*height: 100%;*/
+    background-color: #333333;
+}/*
+.ui-focus, .ui-btn:focus{
+	background: none;
+	box-shadow: none;
+	border-top: 0;
+}
+.ui-focus .ui-btn-inner{
+	border-top: 0;
+} */
+.container_menu{
+   
+    width:31%;
+    height: 100%;
+    position: absolute;
+    border-radius: 8px 8px 5px 5px;
+    background: #141415; /* Old browsers */
+    background: -moz-linear-gradient(top,  #141415 0%, #1d1e20 2%, #1d1e20 98%, #0e0e0e 99%, #0e0e0e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#141415), color-stop(2%,#1d1e20), color-stop(98%,#1d1e20), color-stop(99%,#0e0e0e), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #141415 0%,#1d1e20 2%,#1d1e20 98%,#0e0e0e 99%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #141415 0%,#1d1e20 2%,#1d1e20 98%,#0e0e0e 99%,#0e0e0e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #141415 0%,#1d1e20 2%,#1d1e20 98%,#0e0e0e 99%,#0e0e0e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #141415 0%,#1d1e20 2%,#1d1e20 98%,#0e0e0e 99%,#0e0e0e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141415', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+    overflow: hidden;
+     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+}
+
+.container_content{
+    width:69%;
+    height: 100%;
+    left:31%;
+    position: absolute;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .15);
+    overflow: hidden;
+}
+
+.header_menu{
+    width: 100%;    
+}
+
+.logo{
+    width: 100%;
+    height: 120px;
+}
+
+.logo img{
+    width: 141px;
+    height: 60px;
+    margin-top:30px;
+}
+.sec_search{
+    width: 100%;
+    height: 60px;
+   /* background: url(../images/bar_header_left.png);
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+  */
+}
+.txt_search{
+    width: 80%;
+    margin-top: 10px;
+}
+.div_menu_list{
+
+    width: 100%;
+    margin: 0px;
+}
+
+.menulist{
+    width: 100%;
+    border: none;
+}
+
+.menulist li{
+   height: 50px;
+}
+
+.icon_first{
+    width: 35px;
+    height: 35px;
+    margin-left:20px;
+    margin-top:5px;
+}
+
+.icon_last{
+    position: absolute;
+    width: 38px;
+    height: 26px;
+    margin: 0px auto;
+    right:20px;
+    margin-top:-20px;
+  /*  background: url(../images/btn_blue.png); */
+    background: none repeat scroll 0 0 #0B8BBB;
+     border-radius: 19px 19px 19px 19px;
+     line-height: 28px;
+     background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    color: #FFFFFF;
+}
+.menulist span{
+    margin-left: -30px;
+}
+
+.btn_bars{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    left: 1%;
+    top: 5px;
+}
+
+.btn_reload{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    right: 3%;
+    top: 5px;
+}
+.booklet{
+    width: 100%;
+    height: 470px;  
+    margin: 0px auto; 
+    background: #FFFFFF; /* Old browsers */
+}
+
+.main_booklet{
+  
+    width: 350px;
+    height: 420px;   
+
+}
+
+.expand{
+    width: 33px;
+    height: 33px;
+    margin-left: 90%;
+}
+
+.thumbs{
+    
+    width: auto;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space: nowrap;
+    height: 180px;
+    background: #717275; /* Old browsers */
+    background: -moz-linear-gradient(top,  #717275 0%, #696a6e 1%, #595b5e 2%, #515357 2%, #47474c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#717275), color-stop(1%,#696a6e), color-stop(2%,#595b5e), color-stop(2%,#515357), color-stop(100%,#47474c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #717275 0%,#696a6e 1%,#595b5e 2%,#515357 2%,#47474c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #717275 0%,#696a6e 1%,#595b5e 2%,#515357 2%,#47474c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #717275 0%,#696a6e 1%,#595b5e 2%,#515357 2%,#47474c 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #717275 0%,#696a6e 1%,#595b5e 2%,#515357 2%,#47474c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#717275', endColorstr='#47474c',GradientType=0 ); /* IE6-9 */
+    color: #FFFFFF;
+}
+
+.sec_thumbs{
+   /* width:13%; */
+    height: 100%;
+    display: inline-block;
+    /* float: left; */
+}
+
+.sec_thumbs img{
+   
+    width: 120px;
+    height: 130px;
+}
+
+.sec_thumbs p{
+    margin-top: -5px;
+    line-height: 12px;
+}
+
+.icon_others{
+
+     height: 150px;
+}
+
+.seg_control{
+
+    margin: 0 auto;
+     width: 100%;
+}
+.seg_control .ui-controlgroup-controls{
+	display: inline-table!important;
+	 /*width:100%!important; */
+}
+.container_content .ui-content.ui-body-a {
+padding: 15px 0!important;
+}
+.seg_control label{
+    width: 100px;
+    height: 30px;
+}
+.seg_control input:checked{
+    color:#1699C8;
+    background: #141415; /* Old browsers */
+    background: -moz-linear-gradient(top,  #141415 0%, #1d1e20 2%, #1d1e20 98%, #0e0e0e 99%, #0e0e0e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#141415), color-stop(2%,#1d1e20), color-stop(98%,#1d1e20), color-stop(99%,#0e0e0e), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #141415 0%,#1d1e20 2%,#1d1e20 98%,#0e0e0e 99%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #141415 0%,#1d1e20 2%,#1d1e20 98%,#0e0e0e 99%,#0e0e0e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #141415 0%,#1d1e20 2%,#1d1e20 98%,#0e0e0e 99%,#0e0e0e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #141415 0%,#1d1e20 2%,#1d1e20 98%,#0e0e0e 99%,#0e0e0e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141415', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */    
+
+}
+
+
+
+.ic_case_study{
+    width: 120px;
+    height: 130px;
+    position: absolute;
+    left: 75%;
+}

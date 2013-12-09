@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+        <script type="text/javascript" src="js/cordova.js"></script>
+		<script type="text/javascript" src="js/cordova-2.2.0.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://view.jquerymobile.com/1.3.2/dist/demos/css/themes/default/jquery.mobile.min.css" />
+        <script type="text/javascript" src="http://view.jquerymobile.com/1.3.2/dist/demos/js/jquery.mobile.min.js"></script>
+       
+        <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/sqllite.js"></script>
+		<script type="text/javascript" src="js/categories.js"></script>
+		<script type="text/javascript" src="js/design.js"></script>
+		<script type="text/javascript" src="js/localstorage.js"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <link rel="stylesheet" type="text/css" href="css/segment.css"/>
+        
+    </head>
+    <body bgcolor="#000000">
+      <script type="text/javascript">
+        app.initialize();
+      </script>
+            <div class='page' data-role="page">
+          
+                    <div data-theme='a' class='container_menu' data-inset="true" >
+                 <div data-role="header" class='header_menu' data-theme="a" >
+                        <h1>Menu</h1>
+                        <img src='images/btn_reload.png' alt='' class='btn_reload'/>
+                  </div>
+                  <div class="logo" align='center'>
+                    <img src="images/logo.png">
+                  </div>
+                    <div class='sec_search' align='center' >                    
+                       <input class="txt_search" value="" type="search" placeholder="search"/>
+                    </div>
+
+                 <div class='div_menu_list' align='center'>
+                       <ul data-role="listview" data-inset="true" data-theme='a' data-icon="false" class='menulist'  data-corners="false">
+                        <!--         <li onclick="app.viewDownLoadPage()"><font color="white">Download File</font></li> -->
+                        </ul>
+                  </div>
+            </div>
+
+            <div class='container_content' data-inset="true" >
+                <div data-role="header" class="container_title">                       
+                     <img src='images/btn_bars.png' alt='' class='btn_bars' onclick="app.viewContent()" />
+                     <h1></h1>
+                  </div>
+                  <div data-role="content" data-theme="a" >
+                       <div data-theme='a' class='div_seg' align='center'>                          
+                            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" class='seg_control'>
+                               
+                            </fieldset>
+							
+                        </div>
+                  </div>
+                  <div data-theme="a" class='booklet' align='center'>
+                  <!--  <img src="images/MainBook.png" alt="booklet" class='main_booklet'/> -->
+                    <img src="images/expand.png" class='expand'>
+                  </div>
+                  <div data-theme="a" align='center' class='thumbs' >
+                   
+                  </div>
+				  
+				   <div data-theme="a" class='downloadfile' id='downlaodbook' align='center'>
+                    <input id="clickMe1" type="button" value="Download File 1" onclick="app.downFile('clickMe1')" />
+                   <input id="clickMe2" type="button"  value="Download File 1" onclick="app.downFile('clickMe2')" />
+                   <input id="clickMe3" type="button"  value="Download File 1" onclick="app.downFile('clickMe3')" />
+                   <input id="clickMe4" type="button"  value="Download File 1" onclick="app.downFile('clickMe4')" />
+				
+                   
+                      <input id="clickMe5" type="button" value="Download File All"   onclick="app.downFile('clickMe5')"/>
+                 
+                    <div data-theme="a" id="clickMe11" >
+                   </div>
+                  
+            </div>
+            </div>
+        </div> 
+      
+    </body>
+</html>
