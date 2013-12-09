@@ -179,6 +179,8 @@ body {
     width: 33px;
     height: 33px;
     margin-left: 90%;
+	position: relative;
+	top: -52px;
 }
 
 .thumbs{

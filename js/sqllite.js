@@ -401,11 +401,19 @@ function getThumbimage(type){
 	    
 	}
 function bookletOpen(id,type){
-	if(type=="flow")  showItems(id);
-	else {
-	   booklet=' <img src="'+getThumbimage(type)+'" alt="'+type+'" class="main_booklet" />  <img src="images/expand.png" class="expand" onclick="showfile('+id+')">';
-	   //alert(booklet);
-	   $('.booklet').html(booklet);
-		}
+ if(type=="flow")  showItems(id);
+ else {
+        if(type=="video"){
+            booklet ='<embed src="'+content_media_path+localDatabase("get",id).file+'" width="100%" height="100%"></embed>';
+        }else if(type=="pdf"){
+         booklet ='<embed src="'+content_media_path+localDatabase("get",id).file+'#width=100%" width="100%" height="100%"><img src="images/expand.png" class="expand" onclick="showfile('+id+')" ></embed>';
+         }else
+            booklet=' <img src="'+getThumbimage(type)+'" alt="'+type+'" class="main_booklet" />  <img src="images/expand.png" class="expand" onclick="showfile('+id+')">';
+        /*
+         
+         */
+    //alert(booklet);
+    $('.booklet').html(booklet);
+  }
 
 }
