@@ -1,11 +1,11 @@
-var url = 'proxy.php';
+var url = '';
 function design() {
 	
 	$.ajax({
-		type: "GET",
-		url: url,
+			type: "POST",
+		url: url+"http://oneteamus.org/medicalrepbuilder/index.php/api/representative/login",
+
 		data:{
-			url:"http://oneteamus.org/medicalrepbuilder/index.php/api/representative/login",
 			username:"ela",password:"ela"
 		},
 		complete:function(data){

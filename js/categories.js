@@ -1,9 +1,8 @@
 function categories () {
 	$.ajax({
 		type: "POST",
-		url: url,
+		url: url+"http://oneteamus.org/medicalrepbuilder/index.php/api/representative/login",
 		data:{
-			url:"http://oneteamus.org/medicalrepbuilder/index.php/api/representative/login",
 			username:"ela",password:"ela"
 		},
 		complete:function(data){
